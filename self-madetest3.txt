@@ -28,3 +28,6 @@ To deploy our file at Github, we must enter this command at our terminal {git pu
 Enter {git status } again and you will notice that the output has change again. I don't remember what it says exactly but you will see a "nothing to commit" comment.
 It means that the file we recently created at linux and edited at github and delivered to github by using the terminal at VS code was now sent at our remote repository which is the Github.
 Now open a new tab in your browser and open your github account. Under your current Directory there you will notice you recently created. file.
+
+
+I wrote this sentence to see if this will appear at my remote repository which is the Github.

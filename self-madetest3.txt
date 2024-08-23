@@ -1,0 +1,30 @@
+This is my self-madetest3.txt 
+I made this text file becauase I have to revise everything I said in my previous text file which is the self-madetest2.txt
+I want to revise the self-madetes2.txt itself but I realized that it will take me a long time to proofread and edit it.
+Hence the creation of this self-madetest3.txt
+Anyway let's get started.
+First open your built in terminal. You can do it by either tapping the terminal icon on the left side bar or by pressing ctrl+alt+T at the same time.
+Inside your terminal open the directory where you wish to save your text file, in my case it was the (repos) directory.
+Inside your chosen directory create a new file by commanding your terminal. You can do this by entering the {touch} command followed by that name of text file you wanted to create.
+Once you created you file, enter the command {code .}.
+We followed the command {code } with a period {.} because we want our computer to deliver us to VS code using our current directory.
+If we just enter the command {code} without the perior{.} our computer will send us to the default VS code interface. We do not want it to happend because it will be too hassle to look for our current directory we wish to work with in VS code.
+After we did that click the file you wish to edit under the name of our current directory in VS code.
+You will see an empty files if it is new, otherwise if it is old expect a content inside it.
+But in this documentation we will choose the newly created file recently.
+Put some context on it and save it after you are done. Press (ctrl+S) to save it.
+Once you are done with those steps , open your terminal.
+Note you can also open a new terminal inside your Vs code, I find it more convenient since I can see both the VS code and the terminal at the same time.
+You can open the built in terminal in your VS code by pressing (ctrl+`).
+Once the terminal in your Vs code is open enter the command {git status}.
+Git status will show you the status quo of your newly created file whether it is modified or not / and whether it is ready for deployment to git hub or not.
+IF your filename is written under the color red then that means it is not ready yet for deployment into github.
+To change it status from not being ready for staging to be ready  let us write the command {git add [filename]}.
+After you are done enter the {git status} command again.
+You will notice that the filename being colored red before has turned into colored green right now. It means that the file is now at the staging area which is the local repository.
+To commit/send our files that are waiting at the staging area we have to write this command {git commit -m [filename]}.
+Enter the {git status} command again and look at the output, you will notice that the file we created are nowhere to be seen now. The reason for that is because we remove it from the staging are and they are now waiting for us to be deployed at Github.
+To deploy our file at Github, we must enter this command at our terminal {git push origin main}.
+Enter {git status } again and you will notice that the output has change again. I don't remember what it says exactly but you will see a "nothing to commit" comment.
+It means that the file we recently created at linux and edited at github and delivered to github by using the terminal at VS code was now sent at our remote repository which is the Github.
+Now open a new tab in your browser and open your github account. Under your current Directory there you will notice you recently created. file.

@@ -1,0 +1,26 @@
+"Ok, so I made this experiment again for the sole purpose of trying to push this file to github without looking at a cheatsheet on TOP."
+"So how will I do it? I will do it by writing to this file text the steps I have to made and the sequences I have to follow".
+" Let's get started. so first I made another text file in linux by using the {touch command}followed by the name of the text file."
+"The next step that I did is to enter the command {code .} into the linux terminal."
+"You must be asking why I shouldn't just wrote the {code} command, well fyi if I just wrote {code} command then my computer will direct me to the the VS Code itself, and I will definitely waste more time that way since I have to look for my files that I intended to use througout the whole VS code."
+"Don't you think it is a hassle?"
+"That was why I followed the {code} command with a period{.} because if I do that, my computer will send my current directory into the VS code itself ."
+"WHich itself will save me a lot of time rather than looking mindlessly into the VS code.
+"Ok so my computer sent me to the VS code, what now? SO the thing that I must do next is to write all of these that you are now reading into this file."
+"That way I won't be able to forget everything that I must follow and remember when pushing a commit to github."
+"After I am done with writing my journal here I must save it (of course because If I didn't save it then how can I send it to github?)
+"And after I save it by using the CTRL=S I must write some commands again in my terminal,tips: I can open a terminal here in VS code by just pressing the {CTRL+`}."
+"It is just a matter of preference,either the built terminial in your OS or the terminal in VS code, both will work.It is up to you to decide which one you will use."
+"Now into the terminal, I need to type the command {git status} to check if my file is allowable for sending it to github."
+"The beauty of {git status} command is you can check whether your file is executionable or not for a commit."
+"If you made the file for the first time it is expected that it won't be able to be delivered to github."
+"The solution for this is to write this command {git add [filename]}."
+"After you did this, check again the status quo of your file by using the {git status} command again."
+"Now you will notice that your file name turn into color green compared to the previous once that was colored Red."
+"If your filename has become colored green it only means that they are now ready to be committed to github."
+"But we have to save it first to our local repository before we can send it to remote repository which is the github"
+"But how do we save it? We save it by using the {git push [filename]} command.
+"After only write that command can we proceed to the next step which is delivering the file to github."
+Next step is to push your file to github,how are we gonna do it? OF course by using another command in our terminal again."
+"The following command are: {git push origin main } after we did then we can only assure that the file we made was sent to github."
+ 
